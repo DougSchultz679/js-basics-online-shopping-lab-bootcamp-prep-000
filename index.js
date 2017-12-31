@@ -68,7 +68,13 @@ function removeFromCart(item) {
     return cart;}
 
 function placeOrder(cardNumber) {
-  // write your code here
+if (typeof(cardNumber)!=='number'){
+  console.log('Sorry, we don\'t have a credit card on file for you.');return;}
+  else {
+    let orderMessage=`Your total cost is $${total()}, which will be charged to the card;
+
+}
+  
 }
 
 console.log(findPrice());
