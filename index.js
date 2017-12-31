@@ -60,7 +60,10 @@ function total() {
     return totalCost;}
 
 function removeFromCart(item) {
-for (item in )
+  for (var i=0;i<cart.length;i++){
+    for (item in cart[i]){
+      
+    }
   
 }
 }
